@@ -9,7 +9,7 @@ import scipy.io.wavfile
 from matplotlib import cm
 import matplotlib.pyplot as plt
 from scipy.fftpack import dct
-sample_rate, signal = scipy.io.wavfile.read('/Users/uchiha_ashish/Downloads/AUD-20190525-WA0005.wav')  
+sample_rate, signal = scipy.io.wavfile.read('audio_files/AUD-20190525-WA0005.wav)  
 signal = signal[0:int(10 * sample_rate)]
 pre_emphasis = 0.97
 emphasized_signal = np.append(signal[0], signal[1:] - pre_emphasis * signal[:-1])
