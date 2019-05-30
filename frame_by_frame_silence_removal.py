@@ -74,9 +74,4 @@ plt.plot(signal_final2)
 
 plt.plot(signal_final1)
 plt.plot(signal_final2)
-
-
-silence_frame = []
-for i in range(2225):
-    for j in range(400):
-        if frame[i][j] < 
+ 
