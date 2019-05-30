@@ -86,13 +86,6 @@ plt.ylim((-0.5, cost.shape[1]-0.5))
 
 
 
-#####################################
-from scipy import signal
-corr = (emphasized_signal)
-
-
-
-
 
 
 
