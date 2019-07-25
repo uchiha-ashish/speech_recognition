@@ -1,5 +1,3 @@
 Automatic speech recognition using machine learning.
 
-MFCC
-DTW
-Cross Correlation
+To use real time plotting, run liveanimate.py and liveanimateorig.py together on command prompt and respective python interface. 
